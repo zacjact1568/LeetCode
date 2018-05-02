@@ -1,6 +1,7 @@
 #include <iostream>
+#include "problems/TwoSum.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    TwoSum::test();
     return 0;
 }
