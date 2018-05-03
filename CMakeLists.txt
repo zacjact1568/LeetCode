@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode main.cpp problems/TwoSum.cpp problems/TwoSum.h)
+add_executable(LeetCode main.cpp problems/AddTwoNumbers.cpp problems/AddTwoNumbers.h)

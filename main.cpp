@@ -1,7 +1,7 @@
 #include <iostream>
-#include "problems/TwoSum.h"
+#include "problems/AddTwoNumbers.h"
 
 int main() {
-    TwoSum::test();
+    AddTwoNumbers::test();
     return 0;
 }
