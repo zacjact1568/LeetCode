@@ -30,11 +30,10 @@ int LongestSubstringWithoutRepeatingCharacters::recommended(string s) {
         char ch = s[j];
         if (char2Pos.count(ch)) {
             // If the key exists, which means character "ch" exists in the substring
-            //
             int& pos = char2Pos.at(ch);
-            // The new "i" should guarantee that there's no repeating characters in the substring
-            // So, "i" should be the next index of "pos"
-            // Actually, I think "pos" is always greater than "i", so why using "max" here?
+            // The new "i" should ensure that there's no repeating characters in the substring
+            // So, if "pos" is less than or equal to "i", which means "ch" doesn't exist in the substring, there's no need to update "i"
+            // And if "pos" is greater than "i", which means "ch" exists in the substring, "i" should be the next index of "pos"
             i = max(pos, i);
             // Update the corresponding value "pos" of key "ch" in the map
             pos = j + 1;
