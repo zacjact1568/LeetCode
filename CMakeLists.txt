@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode main.cpp problems/LongestSubstringWithoutRepeatingCharacters.cpp problems/LongestSubstringWithoutRepeatingCharacters.h)
+add_executable(LeetCode main.cpp problems/MedianOfTwoSortedArrays.cpp problems/MedianOfTwoSortedArrays.h)

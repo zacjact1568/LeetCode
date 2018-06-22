@@ -1,7 +1,7 @@
 #include <iostream>
-#include "problems/LongestSubstringWithoutRepeatingCharacters.h"
+#include "problems/MedianOfTwoSortedArrays.h"
 
 int main() {
-    LongestSubstringWithoutRepeatingCharacters::test();
+    MedianOfTwoSortedArrays::test();
     return 0;
 }
