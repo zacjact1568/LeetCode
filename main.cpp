@@ -1,7 +1,7 @@
 #include <iostream>
-#include "problems/MedianOfTwoSortedArrays.h"
+#include "problems/LongestPalindromicSubstring.h"
 
 int main() {
-    MedianOfTwoSortedArrays::test();
+    LongestPalindromicSubstring::test();
     return 0;
 }
