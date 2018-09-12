@@ -20,7 +20,6 @@ private:
 public:
 
     static void test();
-
 };
 
 #endif //LEETCODE_LONGESTSUBSTRINGWITHOUTREPEATINGCHARACTERS_H

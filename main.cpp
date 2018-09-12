@@ -1,7 +1,7 @@
 #include <iostream>
-#include "problems/LongestPalindromicSubstring.h"
+#include "problems/ZigZagConversion.h"
 
 int main() {
-    LongestPalindromicSubstring::test();
+    ZigZagConversion::test();
     return 0;
 }

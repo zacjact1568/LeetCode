@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode main.cpp problems/LongestPalindromicSubstring.cpp problems/LongestPalindromicSubstring.h)
+add_executable(LeetCode main.cpp problems/ZigZagConversion.cpp problems/ZigZagConversion.h)
