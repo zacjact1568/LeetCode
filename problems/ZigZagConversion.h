@@ -20,5 +20,4 @@ public:
     static void test();
 };
 
-
 #endif //LEETCODE_ZIGZAGCONVERSION_H

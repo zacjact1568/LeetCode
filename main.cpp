@@ -1,7 +1,7 @@
 #include <iostream>
-#include "problems/ZigZagConversion.h"
+#include "problems/ReverseInteger.h"
 
 int main() {
-    ZigZagConversion::test();
+    ReverseInteger::test();
     return 0;
 }
